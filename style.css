@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.info-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+    font-weight: bold;
+    font-size: 2rem;
+    list-style: none;
+    margin: 2rem 9rem 0 0;
+}
+
+.info-link {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-icon-people {
+    position: absolute;
+    right: 10rem;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+.hero-text-resume {
+    font-size: 16px;
+    max-width: 470px;
+    margin: 40px 0 47px 0;
+}
+
+.hero-container {
+    display: flex;
+    margin-top: 140px;
+    margin-bottom: 71px;
+    gap: 305px;
+}
+
+.hero-btn-resume {
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-color: #FF6464;
+    border: none;
+}
+
+.recent-posts {
+    background-color: #EDF7FA;
+    padding-bottom: 32px;
+}
+
+.recent-posts-headline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent-posts-cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.recent-posts-card {
+    background-color: white;
+    max-width: 500px;
+    padding: 2rem;
+}
+
+.recent-posts-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.recent-posts-link {
+    color: #00A8CC; 
+    text-decoration: none;
+    margin: 27px 0 22px 0;
+}
+
+.recent-posts-text {
+    font-size: 22px;
+}
+
+.recent-posts-date {
+    margin: 17px 0px 11px 0;
+    font-size: 18px;
+}
+
+.Featured-works {
+    margin-bottom: 8rem;
+}
+
+.Featured-works-text {
+    font-size: 22px;
+}
+
+.Featured-works-card-headline {
+    font-size: 30px;
+    font-weight: 700;
+    color: Dark Color;
+}
+
+.Featured-works-card {
+    display: flex;
+    gap: 2rem;
+    border-bottom: 2px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #E0E0E0;
+    margin-bottom: 21px;
+}
+
+.Featured-works-card-more {
+    display: flex;
+    gap: 2rem;
+}
+
+.Featured-works-card-year {
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    background-color: #142850;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin: 16px 0;
+}
+
+.Featured-works-card-type {
+    font-size: 20px;
+    color: #8695A4;
+    margin: 16px 0;
+}
+
+.Featured-works-card-text {
+    font-size: 20px;
+
+}
+
+.social-networks-icon {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer {
+    display: flex;
+}
+
+@media (max-width: 900px) {
+    .info-list {
+        display: none;
+    }
+    .hero-container {
+        text-align: center;
+        display: flex;
+        position: relative;
+    }
+    .hero-icon-people {
+        position: relative;
+        left: 0;
+    }
+    .hero-text-resume {
+        font-size: 18px;
+        margin: 1rem;
+    }
+    .recent-posts-card {
+        max-width: 200px;
+        padding: 10px;
+    }
+    .recent-posts-link {
+        display: none;
+    }
+    .recent-posts-headline {
+        display: block;
+    }
+    .recent-posts-text {
+        text-align: center;
+    }
+    .recent-posts-cards {
+        display: block;
+    }
+}
